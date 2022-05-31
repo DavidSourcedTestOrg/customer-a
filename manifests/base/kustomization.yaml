@@ -7,4 +7,7 @@ helmCharts:
   - name: podinfo
     repo: https://stefanprodan.github.io/podinfo
     namespace: customer-a
+    valuesInline:
+      service:
+        type: LoadBalancer
 
