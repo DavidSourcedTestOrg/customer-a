@@ -7,3 +7,9 @@ approval_rules:
     requires:
       count: 1
       organizations: ["davidsourcedtestorg"]
+    # "options" specifies a set of restrictions on approvals. If the block does not
+    # exist, the default values are used.
+    options:
+      # If true, approvals by the author of a pull request are considered when
+      # calculating the status. False by default.
+      allow_author: true
