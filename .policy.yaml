@@ -1,0 +1,9 @@
+policy:
+  approval:
+    - one approval from davidsourcedtestorg
+
+approval_rules:
+  - name: one approval from davidsourcedtestorg
+    requires:
+      count: 1
+      organizations: ["davidsourcedtestorg"]
