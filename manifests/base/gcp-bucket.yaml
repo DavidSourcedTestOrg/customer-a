@@ -3,6 +3,8 @@
   metadata:
     annotations:
       cnrm.cloud.google.com/force-destroy: "false"
+      cnrm.cloud.google.com/project-id: david-brownbag
+
     # StorageBucket names must be globally unique. Replace ${PROJECT_ID?} with your project ID.
     name: customer-a-bucket-test
   spec:
